@@ -1,0 +1,231 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+QWidget#editor-window,
+QWidget#images-window {
+  padding: 0;
+  margin: 0;
+  background-color: #31363f;
+}
+QWidget#tab-bar {
+  background-color: #29313d;
+  max-height: 40px;
+  min-height: 40px;
+}
+QWidget#side-frame {
+  background-color: #222831;
+  min-width: 230px;
+  max-width: 230px;
+}
+QWidget#layouts-button-frame {
+  background-color: #222831;
+  min-height: 100px;
+  max-height: 100px;
+}
+QScrollArea#scroll-area {
+  background-color: #31363f;
+  border: none;
+}
+QWidget#scroll-area-widget {
+  background-color: #31363f;
+  border: none;
+}
+QListWidget#path-list-widget {
+  background-color: #222831;
+  border: none;
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  margin: 50px 20px 0px 20px;
+  /* padding: 10px; */
+}
+QWidget#status-bar {
+  min-height: 20px;
+  max-height: 20px;
+  background-color: #222831;
+}
+QLabel#current-layout-label {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 10px;
+  margin-right: 10px;
+}
+QListWidget#path-list-widget::item:hover {
+  color: #76abae;
+}
+QLabel#file-title-label {
+  color: #ffffff;
+  font-family: "Montserrat", sans-serif;
+  font-size: 16px;
+  /* margin-left: 10px; */
+}
+
+QPushButton[cssClass="image-slide-buttons"] {
+  background-color: transparent;
+  border: none;
+}
+QWidget[cssClass="a4-page-frame"] {
+  background: #ffffff;
+  min-width: 744px;
+  min-height: 1052px;
+  max-width: 744px;
+  max-height: 1052px;
+}
+QPushButton[cssClass="layout-buttons"] {
+  background-color: transparent;
+  border: none;
+}
+QPushButton[cssClass="side-frame-buttons"] {
+  background-color: #161b21;
+  padding: 10px;
+  font-family: "Montserrat", sans-serif;
+  border-radius: 10px;
+  border: none;
+  margin: 0px 25px 0px 25px;
+}
+QPushButton[cssClass="side-frame-buttons"]:hover {
+  background-color: transparent;
+  border: 1px solid #bebebe;
+}
+QWidget[cssClass="bar"] {
+  background-color: #222831;
+  min-height: 60px;
+  max-height: 60px;
+}
+
+QMenu {
+  background-color: #131313;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 12px;
+}
+QMenu::item {
+  padding: 7px 40px;
+  background-color: transparent;
+}
+QMenu::item:selected {
+  background-color: #555;
+}
+QMenu::icon {
+  padding-left: 10px; /* Pushes icon away from left edge */
+  padding-right: 10px; /* Adds space between icon and text */
+}
+QRadioButton {
+  font-family: "Montserrat";
+  font-size: 12px;
+  color: #f0f0f0;
+}
+QRadioButton::indicator {
+  width: 11px;
+  height: 11px;
+  border-radius: 7px;
+  border: 2px solid #d9d9d9;
+  background-color: transparent;
+}
+QRadioButton::indicator:checked {
+  background-color: #6a1bd9;
+  border: 2px solid #d9d9d9;
+}
+
+QProgressDialog {
+    background-color: #0E1014; /* outer dialog background */
+    color: #FFFFFF;
+    border: none;
+    padding: 15px;
+    border-radius: 8px;
+    min-width: 450px;
+    min-height: 100px;
+    font-family: 'Montserrat';
+}
+
+QProgressBar {
+    background-color: #D9D9D9;
+    border: none;
+    border-radius: 10px;
+    height: 24px;
+    text-align: center;
+    min-width: 320px;
+    color: #000000; /* text color */
+    /* font-weight: bold; */
+    font-family: 'Montserrat';
+}
+
+QProgressBar::chunk {
+    background-color: #2BBD7D;  /* vibrant green */
+    border-radius: 8px;
+}
+
+/* TODO: change the scrollbar color */
+QScrollBar:vertical {
+  background: #31363f;
+  width: 10px;
+  margin: 60px 0px 60px 0px; /* 8px top and bottom margin */
+  border-radius: 5px;
+}
+QScrollBar::handle:vertical {
+  background: #bebebe; /* Scrollbar handle color */
+  min-height: 40px;
+  border-radius: 5px;
+}
+
+QScrollBar::add-line:vertical,
+QScrollBar::sub-line:vertical {
+  height: 0px;
+  background: none;
+  border: none;
+  border-radius: 5px;
+}
+QScrollBar::add-page:vertical,
+QScrollBar::sub-page:vertical {
+  background: #31363f; /* match the track color above */
+  border-radius: 5px;
+}
+
+QScrollBar:horizontal {
+  background: #31363f;
+  height: 10px;
+  /* margin: 0px 60px 0px 60px; */
+  border-radius: 5px;
+}
+QScrollBar::handle:horizontal {
+  background: #bebebe;
+  min-width: 40px;
+  border-radius: 5px;
+}
+
+QScrollBar::add-line:horizontal,
+QScrollBar::sub-line:horizontal {
+  width: 0px;
+  background: none;
+  border: none;
+  border-radius: 5px;
+}
+QScrollBar::add-page:horizontal,
+QScrollBar::sub-page:horizontal {
+  background: #31363f;
+  border-radius: 5px;
+}
+
+QListWidget#path-list-widget QScrollBar:vertical {
+  background: #222831;
+  width: 10px;
+  margin: 0px 0px 0px 0px; /* No margin for the list widget */
+  border-radius: 5px;
+}
+QListWidget#path-list-widget QScrollBar::add-page:vertical,
+QListWidget#path-list-widget QScrollBar::sub-page:vertical {
+  background: #222831;
+  border-radius: 5px;
+}
+
+QListWidget#path-list-widget QScrollBar:horizontal {
+  background: #222831;
+  height: 10px;
+  margin: 0px 0px 0px 0px; /* No margin for the list widget */
+  border-radius: 5px;
+}
+QListWidget#path-list-widget QScrollBar::add-page:horizontal,
+QListWidget#path-list-widget QScrollBar::sub-page:horizontal {
+  background: #222831;
+  border-radius: 5px;
+}

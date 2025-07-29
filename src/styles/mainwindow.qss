@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+QLabel.btn-label {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 15px;
+    margin-left: 10px;
+    text-align: left;
+    max-height: 30px;
+    margin-top: 45px;
+}
+QLabel.icon-label{ 
+    margin-left: 17px;
+    max-width: 20px;
+    max-height: 30px;
+    margin-top: 45px;
+}
+QLabel.header-label {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 30px;
+    margin-left: 25px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+QWidget#main-window {
+    padding: 0;
+    margin: 0;
+    background-color: #31363F;
+}
+QWidget#tab-frame {
+    background-color: #29313D;
+    max-height: 35px;
+    min-height: 35px;
+}
+QWidget#side-frame {
+    background-color: #222831;
+    max-width: 200px;
+    min-width: 200px;
+    margin: 0;
+}
+QWidget#cards-widget {
+    background-color: transparent;
+}
+QPushButton#home-button{
+    background-color: transparent;
+    border: none;
+}
+
+QScrollArea[cssClass = "scroll-area"] {
+    min-height: 200px;
+    height: 220px;
+    background-color: transparent;
+    border: none;
+}
+
+QScrollBar:horizontal {
+    background: #31363F;
+    /* background: transparent; */
+    height: 5px;
+    margin: 0px 0px 0px 0px;
+    border-radius: 10px;
+}
+QScrollBar::handle:horizontal {
+    background: #BEBEBE;
+    /* background: transparent; */
+    min-width: 40px;
+    /* border-radius: 10px; */
+}
+QScrollBar::handle:horizontal:hover {
+    background: #23262d;
+    min-width: 40px;
+    /* border-radius: 10px; */
+}
+QScrollBar::add-line:horizontal, QScrollBar::sub-line:horizontal {
+    width: 0px;
+    background: none;
+    border: none;
+}
+QScrollBar::add-page:horizontal, QScrollBar::sub-page:horizontal {
+    background: #31363F;
+}

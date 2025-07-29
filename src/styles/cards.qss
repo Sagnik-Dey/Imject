@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+QMenu {
+  background-color: #131313;
+  color: #ffffff;
+  font-family: "Montserrat";
+  font-size: 13px;
+}
+QMenu::item {
+  padding: 7px 40px;
+  background-color: transparent;
+}
+QMenu::item:selected {
+  background-color: #555;
+}
+
+QWidget[cssClass = "card-main-frame"] {
+    background-color: #222831;
+
+    min-width: 210px;
+    min-height: 170px;
+    max-width: 210px;
+    max-height: 170px;
+    border-radius: 15px;
+    /* margin-top: 25px;
+    margin-left: 25px; */
+}
+QWidget[impProperty = "important"] {
+    border-top: 3px solid #C34343;
+}
+QWidget[impProperty = "files"] {
+    border-top: 3px solid #1C6BE0;
+}
+QLabel[cssClass = "file-name-label"] {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: bold;
+    font-size: 18px;
+    text-align: center;
+    margin: 50px 0px 20px 0px;
+}
+QLabel[cssClass = "date-proj-label"] {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-weight: normal;
+    font-size: 12px;
+    text-align: center;
+    margin: 5px 0px 5px 0px;
+}

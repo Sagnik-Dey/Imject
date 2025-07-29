@@ -1,0 +1,41 @@
+QDialog {
+    background-color: #0E1014;
+    width: 300px;
+}
+QLabel#exitdialog-label {
+    color: #F2B308;
+}
+QLabel#nolayout-dialog-label, QLabel#noimages-dialog-label, QLabel#overtab-dialog-label, QLabel#fileopen-dialog-label {
+    color: #D9D9D9;
+}
+QLabel#progress-done-dialog-label {
+    color: #25DD1C;
+}
+QLabel#filenotfound-label {
+    color: #EE5759;
+}
+QDialog#nolayout-dialog, QDialog#noimages-dialog, QDialog#progress-done-dialog, QDialog#overtab-dialog, QDialog#fileopen-dialog{
+    min-width: 400px;
+}
+QPushButton#nolayout-dialog-btn, QPushButton#noimages-dialog-btn, QPushButton#progress-done-dialog-btn, QPushButton#overtab-dialog-btn, QPushButton#fileopen-dialog-btn{
+    max-width: 60px;
+}
+
+QLabel[cssClass = "dialog-label"] {
+    font-family: 'Montserrat';
+    font-size: 16px;
+    margin-top: 50px;
+    text-align: center;
+}
+QPushButton[cssClass = "dialog-btn"] {
+    color: #D9D9D9;
+    background-color: #0E1014;
+    padding: 5px 20px;
+    margin-top: 40px;
+    border: 1px solid #D9D9D9;
+    border-radius: 5px;
+    margin-bottom: 40px;
+    width: 60px;
+    font-family: 'Montserrat';
+    font-size: 12px;
+}

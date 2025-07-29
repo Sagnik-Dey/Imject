@@ -1,0 +1,43 @@
+QFrame[cssClass = "baseTab"] {
+    background-color: transparent;
+    color: #FFFFFF;
+    max-width: 170px;
+}
+QFrame[active = "True"] {
+    background-color: #3B414B;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+QFrame[active = "False"][active-beside = "None"]  {
+    /* background-color: #3B414B; */
+    border-left: 1px solid transparent;
+    border-right: 1px solid transparent;
+    border-image: url(":/assets/images/custom_border.png");    
+    /* border-image-slice: 6 fill; */
+}
+QFrame[active = "False"][active-beside = "left"] {
+    border-left: 1px solid transparent;
+    border-image: url(":/assets/images/custom_border.png");    
+}
+QFrame[active = "False"][active-beside = "right"] {
+    border-right: 1px solid transparent;
+    border-image: url(":/assets/images/custom_border.png");    
+}
+
+QFrame[active = "False"]:hover {
+    margin: 4px;
+    border-radius: 7px;
+    padding: 3px;
+    background-color: #316277;
+}
+QPushButton[cssClass = "close-tab-buttons"] {
+    background-color: transparent;
+    border: none;
+}
+QLabel[cssClass = "tab-title"] {
+    color: #FFFFFF;
+    font-family: 'Montserrat';
+    font-size: 11px;
+    /* margin-left: 10px; */
+    text-align: left;
+}

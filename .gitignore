@@ -1,0 +1,5 @@
+build/
+setup.iss
+venv/
+env/
+__pycache_/
