@@ -2,4 +2,5 @@ build/
 setup.iss
 venv/
 env/
-__pycache_/
+src/__pycache_/
+src/setup.py
