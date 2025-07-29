@@ -2,7 +2,7 @@
 
 <img width="128" height="128" alt="logo-resized" src="https://github.com/user-attachments/assets/a929f0c9-574d-4641-943a-61aea24b171e" />
 
-An application where you can upload images, create layout and add those images and then export it to pdf file
+An application where you can upload images, create layout, add those images on a page and then export it to pdf file
 
 <img width="1078" height="653" alt="image" src="https://github.com/user-attachments/assets/352b055a-ab51-4a37-b854-19009dfe2445" />
 
