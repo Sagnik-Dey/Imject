@@ -1,6 +1,6 @@
 # Imject
 
-<img width="512" height="512" alt="logo (3)" src="https://github.com/user-attachments/assets/682a3256-73a4-4ff8-92c6-02a4dfc1de34" />
+<img width="128" height="128" alt="logo-resized" src="https://github.com/user-attachments/assets/a929f0c9-574d-4641-943a-61aea24b171e" />
 
 An application where you can upload images, create layout and add those images and then export it to pdf file
 
