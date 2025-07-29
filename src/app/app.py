@@ -174,7 +174,7 @@ class MainWindow(QWidget):
         # new button
         self.new_btn_icon_label: QLabel = QLabel()
         self.new_btn_icon_label.setObjectName("img")
-        self.new_btn_icon = QPixmap(f"{WindowStaticValue.ICONS_PATH.value + r"\new_icon.png"}")  # 🔁 Replace with your actual image path
+        self.new_btn_icon = QPixmap(f"{WindowStaticValue.ICONS_PATH.value + r"\new_icon.png"}") 
         self.new_btn_icon_label.setPixmap(self.new_btn_icon)
         self.new_btn_icon_label.setProperty("class", "icon-label")
         
@@ -186,7 +186,7 @@ class MainWindow(QWidget):
         
         # open button
         self.open_btn_icon_label: QLabel = QLabel()
-        self.open_btn_icon = QPixmap(f"{WindowStaticValue.ICONS_PATH.value + r"\open_icon.png"}") # Replace with your actual image path
+        self.open_btn_icon = QPixmap(f"{WindowStaticValue.ICONS_PATH.value + r"\open_icon.png"}")
         self.open_btn_icon_label.setPixmap(self.open_btn_icon)
         self.open_btn_icon_label.setProperty("class", "icon-label")
         self.open_btn_icon_label.setStyleSheet("""
