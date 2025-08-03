@@ -34,7 +34,7 @@ Mark your files as important
 - Clone the repository
 - Install the required libraries
   ```bash
-  pip install -r requirements
+  pip install -r requirements.txt
   ```
 - Change directory to src
   ```bash
