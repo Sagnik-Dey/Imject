@@ -18,6 +18,14 @@ Mark your files as important
 
 <img width="1078" height="653" alt="image" src="https://github.com/user-attachments/assets/cf90042b-11f4-45c0-b276-3b667ba3a881" />
 
+### ✨ Features
+
+- Upload and arrange images on custom layouts
+- Save and load projects using `.imject` files
+- Work on multiple projects simultaneously
+- Mark projects as important/starred
+- Export final layout to PDF
+
 ### Languages used
 - Python
 - CSS
